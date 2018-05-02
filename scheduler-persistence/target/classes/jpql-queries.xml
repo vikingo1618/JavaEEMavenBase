@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd"
+                 version="1.0">
+
+
+    <named-query name="UserXProfileDO.deleteByUser">
+        <query>DELETE FROM UserXProfileDO f WHERE f.userDO.idUser=:idUser</query>
+    </named-query>
+    <named-query name="UserXRegionDO.deleteByUser">
+        <query>DELETE FROM UserXRegionDO f WHERE f.userDO.idUser=:idUser</query>
+    </named-query>
+    <named-query name="UserXTheaterDO.deleteByUser">
+        <query>DELETE FROM UserXTheaterDO f WHERE f.userDO.idUser=:idUser</query>
+    </named-query>
+    <named-query name="UserDO.findActiveByDsUsername">
+        <query>SELECT u FROM UserDO u WHERE u.dsUsername=:userName</query>
+    </named-query>
+    <named-query name="UserDO.findUsers">
+        <query>SELECT u FROM UserDO u WHERE u.dsName LIKE :filter OR u.dsUsername LIKE :filter ORDER BY u.dsName ASC</query>
+    </named-query>
+    <named-query name="UserDO.countUsers">
+        <query>SELECT COUNT(u) FROM UserDO u WHERE u.dsName LIKE :filter OR u.dsUsername LIKE :filter</query>
+    </named-query>
+    <named-query name="FunctionDO.getByParams">
+        <query>SELECT i FROM FunctionDO i WHERE ( :schedulerStatus IS NULL OR i.schedulerStatus.idSchedulerStatus = :schedulerStatus)
+            AND i.idVista = :theater AND i.dateTime BETWEEN :dayStart AND :dayEnd</query>
+    </named-query>
+    <named-query name="FunctionDO.getDatesByTheater">
+        <query>SELECT DISTINCT CAST(i.dateTime AS DATE) AS DATE FROM FunctionDO i WHERE i.idVista = :theater ORDER BY DATE ASC</query>
+    </named-query>
+    <named-query name="PropertiesDefaultDO.getDefaultProperties">
+        <query>SELECT p FROM PropertiesDefaultDO p WHERE p.activeU=1 </query>
+    </named-query>
+    <named-query name="FunctionDO.updateSchStatuses">
+        <query>
+            UPDATE FunctionDO F
+                SET F.schedulerStatus=:schedulerStatus
+            WHERE (:idRegion IS NOT NULL AND :idVista IS NULL) AND
+            F.idVista IN (SELECT T.idVista FROM CTheaterDO AS T WHERE T.idRegion = :idRegion)
+            OR
+            (:idRegion IS NULL AND :idVista IS NOT NULL OR :idRegion IS NOT NULL AND :idVista IS NOT
+            NULL) AND
+            F.idVista = :idVista
+            OR
+            (:idRegion IS NULL AND :idVista IS NULL)
+        </query>
+    </named-query>
+    <named-query name="FunctionDO.getGroupedSchStatuses">
+        <query>
+            SELECT F.schedulerStatus
+            FROM FunctionDO AS F
+            WHERE (:idRegion IS NOT NULL AND :idVista IS NULL) AND
+            F.idVista IN (SELECT T.idVista FROM CTheaterDO AS T WHERE T.idRegion = :idRegion)
+            OR
+            (:idRegion IS NULL AND :idVista IS NOT NULL OR :idRegion IS NOT NULL AND :idVista IS NOT
+            NULL) AND
+            F.idVista = :idVista
+            OR
+            (:idRegion IS NULL AND :idVista IS NULL)
+            GROUP BY F.schedulerStatus
+        </query>
+    </named-query>
+
+    <named-query name="FunctionDO.truncateTable">
+        <query>DELETE FROM FunctionDO F</query>
+    </named-query>
+    <named-query name="PropertiesDO.truncateTable">
+        <query>DELETE FROM PropertiesDO P</query>
+    </named-query>
+</entity-mappings>

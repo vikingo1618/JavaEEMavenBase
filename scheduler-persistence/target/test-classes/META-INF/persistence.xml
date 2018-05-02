@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="SchedulePUTestHSQL" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jta-data-source>jdbc/scheduleDSTest</jta-data-source>
+        <mapping-file>jpql-queries.xml</mapping-file>
+        <mapping-file>orm-hsql.xml</mapping-file>
+
+        <class>mx.com.arquitectura.base.model.ConnectionDataDO</class>
+        <class>mx.com.arquitectura.base.model.CParametersDO</class>
+        <class>mx.com.arquitectura.base.model.CRegionDO</class>
+        <class>mx.com.arquitectura.base.model.CScreenDO</class>
+        <class>mx.com.arquitectura.base.model.CTheaterDO</class>
+        <class>mx.com.arquitectura.base.model.FunctionDO</class>
+        <class>mx.com.arquitectura.base.model.PriceGroupDO</class>
+        <class>mx.com.arquitectura.base.model.ProfileDO</class>
+        <class>mx.com.arquitectura.base.model.PropertiesDO</class>
+        <class>mx.com.arquitectura.base.model.SchedulerStatusDO</class>
+        <class>mx.com.arquitectura.base.model.SessionAttributeDO</class>
+        <class>mx.com.arquitectura.base.model.SessionStatusDO</class>
+        <class>mx.com.arquitectura.base.model.SessionTypeDO</class>
+        <class>mx.com.arquitectura.base.model.TimeZoneDO</class>
+        <class>mx.com.arquitectura.base.model.UserDO</class>
+        <class>mx.com.arquitectura.base.model.UserXProfileDO</class>
+        <class>mx.com.arquitectura.base.model.UserXRegionDO</class>
+        <class>mx.com.arquitectura.base.model.UserXTheaterDO</class>
+        <class>mx.com.arquitectura.base.model.AssignSeatsDO</class>
+
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:mem:testdb"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <!-- <property name="eclipselink.allow-zero-id" value="true"/> -->
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+            <!-- Puede ser SEVERE / WARNING / INFO / CONFIG / FINE / FINER / FINEST -->
+            <property name="eclipselink.logging.level" value="FINE"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>

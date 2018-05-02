@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd"
+                 version="2.0">
+    <package>mx.com.arquitectura.base.model</package>
+
+
+    <entity class="FunctionDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idFunction">
+                <column name="ID_FUNCTION" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="ProfileDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idProfile">
+                <column name="ID_PROFILE" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="CRegionDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idRegion">
+                <column name="ID_REGION" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="CTheaterDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idTheater">
+                <column name="ID_THEATER"/>
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="CScreenDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idScreen">
+                <column name="ID_SCREEN" />
+                <generated-value strategy="AUTO" />
+            </id>
+
+        </attributes>
+    </entity>
+
+    <entity class="CParametersDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idParameter">
+                <column name="ID_PARAMETER" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="UserDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idUser">
+                <column name="ID_USER" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="UserXProfileDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idUserXProfile">
+                <column name="ID_K_USER_X_PROFILE" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="UserXRegionDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idUserXRegion">
+                <column name="ID_K_USER_X_REGION" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+
+    <entity class="UserXTheaterDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idUserXTheater">
+                <column name="ID_K_USER_X_THEATER" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="PriceGroupDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idPriceGroup">
+                <column name="ID_PRICE_GROUP" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="PropertiesDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idProperty">
+                <column name="ID_PROPERTY" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="SchedulerStatusDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idSchedulerStatus">
+                <column name="ID_SCHEDULER_STATUS" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="SessionStatusDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idSessionStatus">
+                <column name="ID_SESSION_STATUS" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="SessionTypeDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idSessionType">
+                <column name="ID_SESSION_TYPE" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="TimeZoneDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idTimeZone">
+                <column name="ID_TIME_ZONE" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="ConnectionDataDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idConnectionData">
+                <column name="ID_CONECTION_DATA" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="SessionAttributeDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idSessionAttribute">
+                <column name="ID_SESSION_ATTRIBUTE" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+    <entity class="PropertiesDefaultDO" metadata-complete="false" access="FIELD">
+        <attributes>
+            <id name="idProperty">
+                <column name="ID_PROPERTY_DEFAULT" />
+                <generated-value strategy="AUTO" />
+            </id>
+        </attributes>
+    </entity>
+</entity-mappings>

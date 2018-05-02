@@ -1,0 +1,3 @@
+mx/com/cinepolis/scheduler/service/impl/CatalogServiceImpl.class
+mx/com/cinepolis/scheduler/service/CatalogService.class
+mx/com/cinepolis/scheduler/facade/CatalogFacadeEJB.class

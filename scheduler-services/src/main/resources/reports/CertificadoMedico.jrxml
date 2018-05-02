@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 5.6.2.final using JasperReports Library version 5.6.1  -->
+<!-- 2017-09-01T18:28:05 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2341820c-22b3-431e-84c6-b8150c74ade2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="lesionListDataset" uuid="d63f85dc-238d-4dfb-99d4-163462d9523d">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="cveTipoLesionDesc" class="java.lang.String">
+			<fieldDescription><![CDATA[cveTipoLesionDesc]]></fieldDescription>
+		</field>
+		<field name="lugarDesc" class="java.lang.String">
+			<fieldDescription><![CDATA[lugarDesc]]></fieldDescription>
+		</field>
+		<field name="observaciones" class="java.lang.String">
+			<fieldDescription><![CDATA[observaciones]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tatuajeListDataset" uuid="ce9e1f8e-c41f-4f83-a210-8be53420be14">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="cveTipoTatuajeDesc" class="java.lang.String">
+			<fieldDescription><![CDATA[cveTipoTatuajeDesc]]></fieldDescription>
+		</field>
+		<field name="lugarDesc" class="java.lang.String">
+			<fieldDescription><![CDATA[lugarDesc]]></fieldDescription>
+		</field>
+		<field name="observaciones" class="java.lang.String">
+			<fieldDescription><![CDATA[observaciones]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="escudoAyuntamientoHermosillo" class="java.lang.String"/>
+	<parameter name="escudoNacionalMexicano" class="java.lang.String"/>
+	<parameter name="lesionesList" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="tatuajesList" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="horaPruebaMedica" class="java.lang.String"/>
+	<field name="fechaPruebaMedica" class="java.lang.String"/>
+	<field name="generoDetenido" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.nombreDetenido" class="java.lang.String"/>
+	<field name="edadDetenido" class="java.lang.String"/>
+	<field name="lugarNacimientoDetenido" class="java.lang.String"/>
+	<field name="lugarResidenciaDetenido" class="java.lang.String"/>
+	<field name="estadoCivilDetenido" class="java.lang.String"/>
+	<field name="escolaridadDetenido" class="java.lang.String"/>
+	<field name="ocupacionDetenido" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.padeceEnfermedad" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.descripcionEnfermedad" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.ingestaMedicamento" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.descripcionMedicamento" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.descripcionTipoBebida" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.cantidadBebida" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.tiempoEvolucionBebida" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.tipoDrogaDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.descripcionOtraDroga" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.cantidadDroga" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.antecedentesPatologicos.tiempoEvolucionDroga" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.claveAlientoDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.descripcionAliento" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.nivelConcienciaDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.comportamientoDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.lenguajeDesc" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="valoracionMedicaTO.pensamientoDesc" class="java.lang.String"/>
+	<field name="orientacion" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.orientacionTiempo" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.orientacionEspacio" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.orientacionPersona" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.pruebaDedoNariz" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.diadococinesia" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.otraPruebaCoordinacion" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.tipoMarchaDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.tipoPupilasDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.tipoReaccionPupilasDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.nistagmosDesc" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.romberg" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.puntaTalon" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.otrasPruebaEquilibrio" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.descripcionExploracionFisica" class="java.lang.String"/>
+	<field name="intoxicaciones" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.alcoholimetria" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.folioPruebaAlcohol" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.alcoholimetriaHoraPrueba" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.alcoholimetriaResultado" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.conclusiones" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.impresionDiagnostica" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.indicacionesMedicas" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.sometidoTortura" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.cedulaProfesional" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.registroSSA" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.numEmpleado" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.lesiones" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.exploracionFisica.tatuajes" class="java.lang.String"/>
+	<field name="valoracionMedicaTO.revisionMedicaLegal.observacionesEstadoMental" class="java.lang.String"/>
+	<field name="zona" class="java.lang.String"/>
+	<field name="folio" class="java.lang.String"/>
+	<field name="nomCompletoMedico" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="66">
+			<image>
+				<reportElement x="25" y="2" width="32" height="29" uuid="70df84a9-cb28-40d7-8a3f-2aed2e4acaa9"/>
+				<imageExpression><![CDATA[$P{escudoNacionalMexicano}.toString()]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="82" y="12" width="324" height="20" uuid="0ba3f5ce-720a-4221-b6ce-f7b3ba3cc440">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Gill Sans MT" size="14"/>
+				</textElement>
+				<text><![CDATA[GOBIERNO MUNICIPAL DE HERMOSILLO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="416" y="17" width="30" height="15" uuid="a522f219-89a5-431f-a3ee-28d9af5cc6c7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Zona:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="450" y="17" width="102" height="15" uuid="a5dc51a3-c724-488b-98dc-47a063acaa28">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{zona}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="450" y="32" width="102" height="15" uuid="fe727d61-38b3-4a73-a8a5-36b9bfe8041e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{folio}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="406" y="32" width="40" height="15" uuid="7eb97969-dcc8-41c4-aa75-cc71c8a6a869">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Folio:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="82" y="37" width="324" height="20" uuid="c80160db-b5df-4d4c-91c7-14a66b98c308">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Gill Sans MT" size="14"/>
+				</textElement>
+				<text><![CDATA[CERTIFICADO DE EXAMEN PSICOFÍSICO]]></text>
+			</staticText>
+			<image hAlign="Center">
+				<reportElement x="5" y="33" width="70" height="27" uuid="63e7580e-c07b-47d5-9862-327a478b5624"/>
+				<imageExpression><![CDATA[$P{escudoAyuntamientoHermosillo}.toString()]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="42">
+			<staticText>
+				<reportElement x="0" y="0" width="550" height="25" uuid="11552d59-35d8-4b33-94a9-9955c1934949">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[El que suscribe <style isBold='true' pdfFontName='Helvetica-Bold'>MÉDICO LEGISTA</style>, legalmente autorizado para ejercer su función, adscrito al juzgado calificador del H. Ayuntamiento de Hermosillo y a solicitud de la autoridad competente, <style isBold='true' pdfFontName='Helvetica-Bold'>bajo protesta de decir verdad</style>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="27" width="200" height="15" uuid="4c8f4372-64fd-40eb-94c8-fcd419bcb9cc">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Gill Sans MT" size="12" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[CERTIFICA:]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement key="" x="0" y="0" width="550" height="35" uuid="2cc5f6d2-4f7e-48ec-a650-650a7ee7d3d3">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" markup="styled">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["A las <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{horaPruebaMedica} != null?$F{horaPruebaMedica}:"NO ESPECIFICADA")+"</style> horas del día <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{fechaPruebaMedica} != null?$F{fechaPruebaMedica}:"NO ESPECIFICADO")+"</style> examiné al individuo de sexo: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{generoDetenido}!= null?$F{generoDetenido}:"NO ESPECIFICADO")+"</style> quien dijo llamarse: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{valoracionMedicaTO.nombreDetenido}!= null?$F{valoracionMedicaTO.nombreDetenido}:"NO ESPECIFICADO")+"</style> y tener una edad de: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{edadDetenido}!= null?$F{edadDetenido}+" años":"NO ESPECIFICADA")+"</style>, ser originario de: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{lugarNacimientoDetenido}!= null?$F{lugarNacimientoDetenido}:"NO ESPECIFICADO")+"</style> y residente de: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{lugarResidenciaDetenido}!= null?$F{lugarResidenciaDetenido}:"NO ESPECIFICADO")+"</style>; con estado civil: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{estadoCivilDetenido}!= null?$F{estadoCivilDetenido}:"NO ESPECIFICADO")+"</style>; grado de estudios: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{escolaridadDetenido}!= null?$F{escolaridadDetenido}:"NO ESPECIFICADO")+"</style> y ocupación: <style isBold='true' pdfFontName='Helvetica-Bold'>".concat($F{ocupacionDetenido}!= null?$F{ocupacionDetenido}:"NO ESPECIFICADA")+"</style>."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="27">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="1" width="555" height="13" forecolor="#FFFFFF" backcolor="#000000" uuid="a6147651-b2fd-4484-8317-abbc41173fe3"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="11" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Antecedentes personales patológicos]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="15" width="165" height="12" uuid="028b61a5-4637-4b87-94c1-23373b46bb84">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Refiere padecer alguna enfermedad: <style isUnderline='true'>".concat($F{valoracionMedicaTO.antecedentesPatologicos.padeceEnfermedad} != null ? $F{valoracionMedicaTO.antecedentesPatologicos.padeceEnfermedad}: "")+"</style>"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="170" y="15" width="50" height="12" uuid="40ebc501-a794-42a4-8ac7-f36776dbb1ef">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.padeceEnfermedad}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Especifique:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="228" y="15" width="327" height="12" isPrintWhenDetailOverflows="true" uuid="3b5a73e5-3389-4bfa-90f4-48bf50ad0ecd">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.padeceEnfermedad}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.descripcionEnfermedad}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="12">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="165" height="12" uuid="63a65429-8fcd-4a57-b7c6-7341ce6e4817">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement markup="styled">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Refiere ingerir algún medicamento: <style isUnderline='true'>".concat($F{valoracionMedicaTO.antecedentesPatologicos.ingestaMedicamento} != null ? $F{valoracionMedicaTO.antecedentesPatologicos.ingestaMedicamento}: "")+"</style>"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="170" y="0" width="50" height="12" uuid="9f628ee6-9f0b-46ac-bc8b-2419f6e19216">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaMedicamento}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Especifique:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="228" y="0" width="327" height="12" isPrintWhenDetailOverflows="true" uuid="8f49c2ab-f040-4c0e-a26b-32286a883f38">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaMedicamento}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.descripcionMedicamento}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="12">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="202" height="12" uuid="6b76862e-ef51-4e36-a706-57fad6ecb639"/>
+				<textElement markup="styled">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Antecedente de la ingesta reciente de alcohol: <style isUnderline='true'>".concat($F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica} != null ? $F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}: "")+"</style>"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="203" y="0" width="78" height="12" uuid="17ec220f-4104-4608-8cf7-2c11f6c84ab6">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Tipo de bebida(s):]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="0" width="59" height="12" isPrintWhenDetailOverflows="true" uuid="eea1f941-d2d7-4b77-a0ed-c751e413ef06">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.descripcionTipoBebida}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="342" y="0" width="40" height="12" uuid="482d45cd-7a45-47ca-a08a-f39f02255eb8">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Cantidad:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="383" y="0" width="45" height="12" isPrintWhenDetailOverflows="true" uuid="1260267e-04e7-4356-8111-b3dc76c6030e">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.cantidadBebida}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="429" y="0" width="76" height="12" uuid="e2781c45-a86f-4d25-943d-22bdc4f59ecd">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Último consumo:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="505" y="0" width="50" height="12" isPrintWhenDetailOverflows="true" uuid="8e1e53f9-082e-4136-a5eb-2e05216950c0">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaBebidaAlcoholica}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.tiempoEvolucionBebida}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="13">
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="168" height="12" uuid="5f57bf6b-75b1-4727-bc3b-54abbe392c98"/>
+				<textElement markup="styled">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Antecedente de consumo de drogas: <style isUnderline='true'>".concat($F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas} != null ? $F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}: "")+"</style>"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="505" y="0" width="50" height="12" isPrintWhenDetailOverflows="true" uuid="cc38c528-9438-4d59-a779-930e761c71fc">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.tiempoEvolucionDroga}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="342" y="0" width="40" height="12" uuid="6c0bd82a-fe67-4b5c-8e57-23ccb1df6b75">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Cantidad:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="383" y="0" width="45" height="12" isPrintWhenDetailOverflows="true" uuid="4b221adb-9e6e-446c-a6f8-b7ca81c94066">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.cantidadDroga}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="237" y="0" width="103" height="12" isPrintWhenDetailOverflows="true" uuid="41e5af69-81c5-43c6-aafb-a5ef9f8e60eb">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.tipoDrogaDesc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="168" y="0" width="69" height="12" uuid="106ad340-b7c4-4b8a-9ee4-69ca31643e93">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Tipo de droga(s):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="429" y="0" width="76" height="12" uuid="d6e88f6d-b887-4665-9475-7c8173dcd8b1">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.antecedentesPatologicos.ingestaDrogas}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Último consumo:]]></text>
+			</staticText>
+		</band>
+		<band height="15">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<printWhenExpression><![CDATA[$F{valoracionMedicaTO.tipoDrogaDesc}.equals( "Otro" )]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="170" y="0" width="380" height="15" isPrintWhenDetailOverflows="true" uuid="9b8e63e0-0ae2-4998-8976-5dd6936527ed">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.tipoDrogaDesc}.equals( "Otro" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Especifique: "+$F{valoracionMedicaTO.antecedentesPatologicos.descripcionOtraDroga}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="1" width="555" height="13" forecolor="#FFFFFF" backcolor="#000000" uuid="0ec19cd2-f032-4a9e-8f19-1c0eec785913">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="11" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Revisión médico legal]]></text>
+			</staticText>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="14" width="555" height="12" backcolor="#F7F7F7" uuid="d145e272-4168-4121-bb25-2f0d17c58c89">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textField isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="130" height="12" uuid="a9aa39eb-874d-4487-8d97-df6083be01ce"/>
+					<textElement markup="styled">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Aliento: <style isUnderline='true'>".concat($F{valoracionMedicaTO.claveAlientoDesc} != null?$F{valoracionMedicaTO.claveAlientoDesc}:"")+"</style>"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="140" y="0" width="50" height="12" uuid="3e4f5ca3-e6cf-4792-aa54-50edea0fecf7">
+						<printWhenExpression><![CDATA[$F{valoracionMedicaTO.claveAlientoDesc}.equals( "Otro" )]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Especifique:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement mode="Transparent" x="190" y="0" width="365" height="12" backcolor="#FFFFFF" uuid="1631dd21-460c-450b-9b16-74ee9dce6faf">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<printWhenExpression><![CDATA[$F{valoracionMedicaTO.claveAlientoDesc}.equals( "Otro" )]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.descripcionAliento}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<staticText>
+				<reportElement x="0" y="26" width="86" height="12" uuid="d416d52e-db97-41fe-bd26-14f74f59b148"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Estado Mental]]></text>
+			</staticText>
+		</band>
+		<band height="12">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.observacionesEstadoMental}.length() > 0]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="0" y="0" width="554" height="12" isPrintWhenDetailOverflows="true" uuid="582b7f56-b703-4eb2-a96a-66775fb47239"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.observacionesEstadoMental}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="118">
+			<staticText>
+				<reportElement x="0" y="39" width="59" height="12" uuid="b55ebab8-e5ff-46d6-8269-1e99dc95807b"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Coordinación]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="51" width="78" height="12" uuid="06d27e8f-c3bb-4af7-a863-231b02baade0"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Prueba dedo-nariz:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="91" y="51" width="46" height="12" uuid="2f340bb3-d744-47c6-bf86-de87c9b103cf"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.pruebaDedoNariz}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="185" y="51" width="84" height="12" uuid="7194275d-4d77-4828-bf54-1e71e3cd5a61"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.diadococinesia}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="366" y="51" width="28" height="12" uuid="62bd400d-ad13-4b32-be24-187f1259cc8c"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Otras:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="394" y="51" width="140" height="12" uuid="7096ed1f-c53a-4dc5-bbba-d8d25d73d8b7"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.otraPruebaCoordinacion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="89" height="12" uuid="5bdf430e-759a-4fe2-99ec-ca151d69e841"/>
+				<textElement textAlignment="Left">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Nivel de conciencia:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="332" y="0" width="110" height="12" uuid="c8e59e58-e59c-424a-870a-dc4d495cb1ae"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.comportamientoDesc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="0" width="80" height="12" uuid="58b94357-611f-442c-a9a1-601dca45dc8e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Comportamiento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="341" y="26" width="50" height="12" uuid="8ee9578d-2e74-405d-b966-a5d1ba8dff57"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Lenguaje:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="26" width="66" height="12" uuid="96f7d7a2-2289-48db-b1c7-6300500d95d1"/>
+				<textElement textAlignment="Left">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Pensamiento:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="69" y="26" width="262" height="12" uuid="78654f67-01cc-47b9-84b0-414d85f354d2"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.pensamientoDesc}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="397" y="26" width="108" height="12" uuid="ccec6e27-41d9-49bc-b90a-48b3ba6e3c7b"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.lenguajeDesc}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="91" y="0" width="102" height="12" uuid="3ec40afe-9258-43ee-ae8b-0f9d9c9909b7"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.nivelConcienciaDesc}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="13" width="555" height="12" forecolor="#000000" backcolor="#F7F7F7" uuid="d39694cd-7a79-4728-8c20-acba65c2c895">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement x="1" y="0" width="54" height="12" uuid="bd50d99b-8005-4865-a8d4-520ebe2f4c47"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Orientación]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="74" y="0" width="38" height="12" uuid="3f5c5c3b-0d13-496d-8fe9-5a3db0ef433d"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Tiempo:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="113" y="0" width="67" height="12" uuid="dc307fee-c4e2-4aeb-8c91-27dfa31cf74c"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.orientacionTiempo}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="195" y="0" width="66" height="12" uuid="b876b701-299a-4ef4-84b1-817e4738e3d5"/>
+					<textElement textAlignment="Right">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Espacio:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="267" y="0" width="98" height="12" uuid="6d663f1a-01b4-4501-8f6d-68aa2ffe24e6"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.orientacionEspacio}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="392" y="0" width="44" height="12" uuid="1b0534cd-6b48-4726-8ec1-ba58d1645974"/>
+					<textElement textAlignment="Right">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Persona:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="442" y="0" width="69" height="12" uuid="c5e8fd29-63ad-44df-a7e1-1098e81ad866"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.orientacionPersona}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="81" width="555" height="37" backcolor="#F7F7F7" uuid="96dbc2bf-5785-41f4-b3bd-436e9e4e2e61">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textField isBlankWhenNull="true">
+					<reportElement x="267" y="12" width="86" height="12" uuid="cc9f0711-dec6-40c6-8b6f-ad5ee205dbeb"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.romberg}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="9" y="12" width="78" height="12" uuid="15909dad-a80b-450c-a395-6287c677dcfd"/>
+					<textElement textAlignment="Right">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Marcha:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="9" y="25" width="78" height="12" uuid="bb245d3a-8b0f-4d71-84af-9c6ca3117314"/>
+					<textElement textAlignment="Right">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Otros:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="91" y="12" width="91" height="12" uuid="83ae661b-025e-47e3-a3e7-032c85b88499"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.tipoMarchaDesc}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="368" y="12" width="68" height="12" uuid="7f20269d-9c56-4be8-ae8a-b1ab998927f7"/>
+					<textElement textAlignment="Right">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Punta-talón:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="185" y="12" width="78" height="12" uuid="f21490a4-c43c-4455-b375-9b8cb1c5ef12"/>
+					<textElement textAlignment="Right">
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Romberg:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="91" y="25" width="446" height="12" isPrintWhenDetailOverflows="true" uuid="ea014b33-aad3-498d-9217-fad3fee867bc"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.otrasPruebaEquilibrio}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="442" y="12" width="94" height="12" uuid="0b9a3c9f-ba2e-4a1f-8f78-2cd9f6ea701a"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{valoracionMedicaTO.revisionMedicaLegal.puntaTalon}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="0" width="40" height="12" uuid="7d8e670a-7ccf-4b03-96a4-cb882e0de309"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Equilbrio]]></text>
+				</staticText>
+			</frame>
+			<staticText>
+				<reportElement x="9" y="67" width="78" height="12" uuid="b8c72625-f753-4345-ba5f-e94492af3cf3"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Pupilas:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="91" y="67" width="91" height="12" uuid="f77190cf-8a7e-4102-8937-2aa604b2f001"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.tipoPupilasDesc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="185" y="67" width="78" height="12" uuid="63516292-7691-4bd5-9613-35a4ce298081"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Reacción pupilas:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="267" y="67" width="86" height="12" uuid="876486f3-3e22-415a-b810-32ed4e4c9298"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.tipoReaccionPupilasDesc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="368" y="67" width="68" height="12" uuid="8a1df71d-1b35-42f3-abbc-afe6ee045b92"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Nistagmos:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="442" y="67" width="94" height="12" uuid="7d19f844-daa2-42da-92d8-d14aa67b80c1"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.nistagmosDesc}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="14">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="1" width="555" height="13" forecolor="#FFFFFF" backcolor="#000000" uuid="020f3fdd-b8bb-48f7-9d90-a847dd9e2cab">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="11" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Exploración física y lesiones]]></text>
+			</staticText>
+		</band>
+		<band height="12">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.descripcionExploracionFisica}.length() > 0]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="0" width="554" height="12" isPrintWhenDetailOverflows="true" uuid="d217c788-8d99-412a-a607-d6603277af97"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.descripcionExploracionFisica}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<printWhenExpression><![CDATA[$P{lesionesList}.getRecordCount() > 0]]></printWhenExpression>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="14" backcolor="#F7F7F7" uuid="97cc333c-5cd2-49b9-96df-162cdb4607c5">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement x="0" y="0" width="166" height="12" uuid="6f58737a-b591-4bd9-89e7-92371d95d01b">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Lesión]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="166" y="0" width="167" height="12" uuid="a4f2ac6b-1faa-4072-998d-26fdf2dbde08">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Lugar]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="333" y="0" width="222" height="12" uuid="ea58ba1b-20ea-4b6f-8830-6104e0b12abf">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Observaciones]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="15">
+			<printWhenExpression><![CDATA[$P{lesionesList}.getRecordCount() > 0]]></printWhenExpression>
+			<componentElement>
+				<reportElement key="" stretchType="RelativeToTallestObject" x="0" y="0" width="555" height="15" isPrintWhenDetailOverflows="true" uuid="a772b54c-43e9-47a1-a1c8-b837752742e9"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+					<datasetRun subDataset="lesionListDataset" uuid="b41cead5-99c4-4d2f-b08f-df8255ce6af7">
+						<dataSourceExpression><![CDATA[$P{lesionesList}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="166" uuid="2753e305-2bac-4ddd-902f-dd3a7e1d2e43">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<jr:detailCell height="16">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="166" height="16" uuid="0636ac04-e8d6-442e-8984-c9d4a87a6889">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{cveTipoLesionDesc}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="166" uuid="e80e31ac-a01c-4fd4-9b6c-76709ca30ca3">
+						<jr:detailCell height="16">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="166" height="16" uuid="07542798-6da4-4de7-b76f-683a692a39b0"/>
+								<textElement>
+									<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lugarDesc}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="223" uuid="32c717ed-2c19-4b3a-92ab-246d5257604b">
+						<jr:detailCell height="16">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="223" height="16" isPrintWhenDetailOverflows="true" uuid="6e4bda9f-47c3-4bee-84e1-3f1b0174432d">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{observaciones}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="15">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$P{tatuajesList}.getRecordCount() > 0]]></printWhenExpression>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="14" backcolor="#F7F7F7" uuid="a5bfd078-630b-479f-b5aa-edf357d0363a">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement x="0" y="0" width="166" height="12" uuid="aa8600c7-0e70-495b-8899-ab12176fb1ee">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Tatuaje]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="166" y="0" width="167" height="12" uuid="4b2c0ed6-6d7b-4c7d-82c4-bb8815168e7e">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Lugar]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="333" y="0" width="222" height="12" uuid="02cbff2c-a36b-410b-8bce-4cc6350bac10">
+						<property name="local_mesure_unitwidth" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9"/>
+					</textElement>
+					<text><![CDATA[Observaciones]]></text>
+				</staticText>
+			</frame>
+		</band>
+		<band height="15">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$P{tatuajesList}.getRecordCount() > 0]]></printWhenExpression>
+			<componentElement>
+				<reportElement x="0" y="0" width="555" height="15" isPrintWhenDetailOverflows="true" uuid="ed17d8a6-c35b-460b-bc9d-705521fadb8d">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+					<datasetRun subDataset="tatuajeListDataset" uuid="6e564183-110c-4372-9b7b-ab37e338bd1e">
+						<dataSourceExpression><![CDATA[$P{tatuajesList}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="166" uuid="6d226878-f1fd-47ec-86a0-c470b8591c45">
+						<property name="local_mesure_unitheight" value="pixel"/>
+						<jr:detailCell height="16">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="166" height="16" uuid="5490297b-2715-4271-b507-3bea703526dc">
+									<property name="local_mesure_unitheight" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{cveTipoTatuajeDesc}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="166" uuid="58311a2c-7337-4578-86f3-a952b37b73db">
+						<jr:detailCell height="16">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="166" height="16" uuid="4c08af62-a56a-4238-9ad9-a84c083b7c8d">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unitheight" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{lugarDesc}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="278" uuid="6e580f76-b3bc-4fd9-bf45-2a6a75245c9b">
+						<jr:detailCell height="16">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="223" height="16" isPrintWhenDetailOverflows="true" uuid="86ebbf88-176e-422a-8629-41ab23796a7a">
+									<property name="local_mesure_unitwidth" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="local_mesure_unitheight" value="pixel"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								</reportElement>
+								<textElement>
+									<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{observaciones}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="15">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="12" backcolor="#F7F7F7" uuid="442c902f-c366-4c93-b668-8b12e3a979d3">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<staticText>
+					<reportElement x="0" y="0" width="67" height="12" uuid="5e67b38b-cd65-4034-a187-dd72db17ab3d"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Intoxicaciones]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement x="67" y="0" width="487" height="12" isPrintWhenDetailOverflows="true" uuid="ebac6cd2-d5c0-4174-a726-0bbc95dac22f"/>
+					<textElement>
+						<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{intoxicaciones}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="15">
+			<staticText>
+				<reportElement x="0" y="1" width="67" height="12" uuid="83ae4eac-66b2-4a6c-8d36-bddaa4582ab6"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Alcoholimetría:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="67" y="1" width="19" height="12" uuid="b7bb6996-e3e9-43ae-ae72-83cb3610ebbd">
+					<printWhenExpression><![CDATA[!$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals("Sí")]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="86" y="1" width="68" height="12" uuid="bad987f7-ab72-4aec-9101-9e6b78ff7da4">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Folio de prueba:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="154" y="1" width="86" height="12" uuid="ca8a79cb-cba1-4086-a58e-abd4143bdf6a">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.folioPruebaAlcohol}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="1" width="70" height="12" uuid="7ae51094-3199-4bbc-823b-d5eb6f239746">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Hora de prueba:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="317" y="1" width="42" height="12" uuid="732f3557-f502-4283-8790-e3891fad24a5">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetriaHoraPrueba}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="367" y="1" width="45" height="12" uuid="848852dd-a313-4e05-840c-ce890ec669e4">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Resultado:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="413" y="1" width="141" height="12" isPrintWhenDetailOverflows="true" uuid="5658017a-ff02-4818-a291-0885cfebe9d3">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetria}.equals( "Sí" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.exploracionFisica.alcoholimetriaResultado}+" % 210 l"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="16">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="1" width="555" height="13" forecolor="#FFFFFF" backcolor="#000000" uuid="d1058979-ed7c-4cc4-9509-4400116717fd">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="11" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Conclusiones]]></text>
+			</staticText>
+		</band>
+		<band height="12">
+			<printWhenExpression><![CDATA[$F{valoracionMedicaTO.sometidoTortura}.equals( "true" )]]></printWhenExpression>
+			<staticText>
+				<reportElement x="0" y="0" width="320" height="12" uuid="d62c45ef-723b-4e02-a877-9122d100abef">
+					<printWhenExpression><![CDATA[$F{valoracionMedicaTO.sometidoTortura}.equals( "true" )]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Se sospecha que el detenido puedo haber sido sometido a tortura]]></text>
+			</staticText>
+		</band>
+		<band height="33">
+			<staticText>
+				<reportElement x="0" y="0" width="26" height="12" uuid="ceed04f7-7bd8-4130-b4ba-ed9f4337e121"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[IDx]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="13" width="555" height="18" isPrintWhenDetailOverflows="true" uuid="288ba99c-0aa2-4f91-804b-6a20ed782cad"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.impresionDiagnostica}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="33">
+			<staticText>
+				<reportElement x="0" y="1" width="228" height="12" uuid="57f906c6-908e-4737-b061-fe56b92605c3"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Indicaciones médicas]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="0" y="14" width="555" height="19" isPrintWhenDetailOverflows="true" uuid="b545fc18-839f-4ea7-a922-9f6bcbb18194"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.indicacionesMedicas}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="69" splitType="Prevent">
+			<textField isBlankWhenNull="true">
+				<reportElement x="411" y="34" width="127" height="12" uuid="673873c1-0ce1-41b9-ab2d-f8202d73cfdd"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.numEmpleado}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="81" y="45" width="132" height="12" uuid="27ad7c4d-5d05-468b-93b4-8b984ef6d8c1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Nombre y firma del médico]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="328" y="10" width="79" height="12" uuid="01ea1cb8-0566-40ce-a7de-7ebc25cd8b02"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Cédula profesional:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="411" y="22" width="127" height="12" uuid="77334a1b-1e8f-49ad-bb1d-b570042547a4"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.registroSSA}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="328" y="22" width="79" height="12" uuid="bba43879-010c-4cd0-bf8f-020d79073390"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[Registro SSA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="72" y="33" width="149" height="12" uuid="8ab48ee9-4fa7-4e38-82e4-9f8061a86c5c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[____________________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="328" y="34" width="79" height="12" uuid="cc32834b-03be-4270-a149-ff9f2b45f75c"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<text><![CDATA[No. de empleado:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="411" y="10" width="127" height="12" uuid="73f7b837-4756-4120-a521-17654aa4723b"/>
+				<textElement>
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valoracionMedicaTO.cedulaProfesional}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="7" y="27" width="280" height="13" uuid="037f242e-f318-47c4-9594-1ace045c2d56"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nomCompletoMedico}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="33" splitType="Stretch">
+			<textField>
+				<reportElement x="181" y="3" width="100" height="17" uuid="1f79d6c4-5bb1-4e41-97df-35f4a2d3e4f0"/>
+				<textElement textAlignment="Right">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Página " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="281" y="3" width="100" height="17" uuid="45b19ab3-eae5-48bd-a8e6-3c3dd4b44c50"/>
+				<textElement textAlignment="Left">
+					<font fontName="Gill Sans MT" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" de " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="15" splitType="Stretch"/>
+	</summary>
+</jasperReport>

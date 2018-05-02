@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/scheduler.iml" filepath="$PROJECT_DIR$/scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduler-app/scheduler-app.iml" filepath="$PROJECT_DIR$/scheduler-app/scheduler-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduler-commons/scheduler-commons.iml" filepath="$PROJECT_DIR$/scheduler-commons/scheduler-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduler-model/scheduler-model.iml" filepath="$PROJECT_DIR$/scheduler-model/scheduler-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduler-persistence/scheduler-persistence.iml" filepath="$PROJECT_DIR$/scheduler-persistence/scheduler-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduler-services/scheduler-services.iml" filepath="$PROJECT_DIR$/scheduler-services/scheduler-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduler-web/scheduler-web.iml" filepath="$PROJECT_DIR$/scheduler-web/scheduler-web.iml" />
+    </modules>
+  </component>
+</project>
