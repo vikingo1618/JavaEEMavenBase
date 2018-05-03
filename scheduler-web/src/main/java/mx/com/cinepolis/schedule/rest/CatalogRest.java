@@ -1,6 +1,7 @@
 package mx.com.cinepolis.schedule.rest;
 
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
+import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
 import mx.com.cinepolis.scheduler.facade.CatalogFacadeEJB;
 
@@ -50,6 +51,15 @@ public class CatalogRest {
     	GenericEntity<List<CatalogsTO>> entity =new GenericEntity<List<CatalogsTO>>(catalogsTOList){};
     	
     	return Response.ok().entity(entity).build();
+    }
+    
+    @GET
+    @Produces("application/json")
+    @Path("/github")
+    public Response getSimpleGit()
+    {
+        GitHubUserTO gitHubUserTO = catalogFacadeEJB.getSimpleGitHubUser();
+        return Response.ok().entity(gitHubUserTO).build();
     }
 
 }

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
+import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
 import mx.com.cinepolis.scheduler.service.CatalogService;
 
@@ -64,5 +65,16 @@ public class CatalogServiceImpl implements CatalogService{
 		
 		return catalogsTOList;
 	}
+	
+    @Override
+    public GitHubUserTO getGitHubUser() {
+        GitHubUserTO gitHubUserTO = new GitHubUserTO();
+        gitHubUserTO.setAvatar("");
+        gitHubUserTO.setName("Victor");
+        gitHubUserTO.setLogin("vikingo1618");
+        gitHubUserTO.setFollowers(6);
+        gitHubUserTO.setFollowing(3);
+        return gitHubUserTO;
+    }
    
 }

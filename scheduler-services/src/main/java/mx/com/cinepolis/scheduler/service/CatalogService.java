@@ -1,6 +1,7 @@
 package mx.com.cinepolis.scheduler.service;
 
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
+import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
 
 import java.util.List;
@@ -21,5 +22,8 @@ public interface CatalogService {
      * @return Lista de estados
      */
     List<CatalogsTO> getEstados(String pais);
+    
+    
+    GitHubUserTO getGitHubUser();
 
 }

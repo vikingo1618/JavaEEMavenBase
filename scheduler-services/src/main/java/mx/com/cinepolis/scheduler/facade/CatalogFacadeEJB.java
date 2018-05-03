@@ -1,6 +1,7 @@
 package mx.com.cinepolis.scheduler.facade;
 
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
+import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
 
 import mx.com.cinepolis.scheduler.service.CatalogService;
@@ -27,5 +28,11 @@ public class CatalogFacadeEJB {
     	
     	return catalogService.getEstados(pais);
     	
+    }
+    
+    
+    public GitHubUserTO getSimpleGitHubUser()
+    {
+        return catalogService.getGitHubUser();
     }
 }

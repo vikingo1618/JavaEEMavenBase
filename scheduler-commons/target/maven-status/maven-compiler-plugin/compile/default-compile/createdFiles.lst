@@ -1,2 +1,3 @@
 mx\com\cinepolis\scheduler\commons\to\UserTO.class
 mx\com\cinepolis\scheduler\commons\to\CatalogsTO.class
+mx\com\cinepolis\scheduler\commons\to\GitHubUserTO.class
