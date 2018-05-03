@@ -1,8 +1,8 @@
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/arquitectura/arquitectura/persistence/EntityManagerProvider.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/arquitectura/arquitectura/persistence/impl/BaseDAOImpl.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/arquitectura/arquitectura/persistence/DAOException.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/cinepolis/scheduler/data/persistence/constants/Constants.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/arquitectura/arquitectura/persistence/DAOError.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/cinepolis/scheduler/data/persistence/dao/impl/UserDAOImpl.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/cinepolis/scheduler/data/persistence/dao/UserDAO.java
-/Users/javierrodriguez/Documents/Repositorios/Java/JavaEEMavenBase/scheduler-persistence/src/main/java/mx/com/arquitectura/arquitectura/persistence/BaseDAOJPA.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\impl\BaseDAOImpl.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\DAOError.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\DAOException.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\constants\Constants.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\EntityManagerProvider.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\arquitectura\arquitectura\persistence\BaseDAOJPA.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\dao\impl\UserDAOImpl.java
+C:\Users\JAVA12\Documents\reposJavaEE\JavaEEMavenBase\scheduler-persistence\src\main\java\mx\com\cinepolis\scheduler\data\persistence\dao\UserDAO.java
