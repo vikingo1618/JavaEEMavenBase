@@ -9,8 +9,8 @@ import java.util.List;
 
 import javax.ejb.EJB;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.GenericEntity;
@@ -19,7 +19,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
 /**
- * @author jrodriguez
+ * @author 
  */
 @Path("/catalog")
 public class CatalogRest {
@@ -56,11 +56,25 @@ public class CatalogRest {
     @GET
     @Produces("application/json")
     @Path("/github")
-    public Response getSimpleGit()
+    public Response getSimpleGit(@Context UriInfo ui)
     {
-        GitHubUserTO gitHubUserTO = catalogFacadeEJB.getSimpleGitHubUser();
+    	MultivaluedMap<String,String> queryParams = ui.getQueryParameters();
+    	String login = queryParams.getFirst("login");
+    	
+    	 GitHubUserTO gitHubUserTO = catalogFacadeEJB.getSimpleGitHubUser(login);
         return Response.ok().entity(gitHubUserTO).build();
     }
+    
+    @POST
+    @Produces("application/json")
+    @Path("/register")
+    public Response requestGit(GitHubUserTO gitHubUserTO)
+    {
+    	GitHubUserTO ghUserTO = catalogFacadeEJB.postRequest(gitHubUserTO);
+        return Response.ok().entity(ghUserTO).build();
+    }
 
+    
+   
 }
 

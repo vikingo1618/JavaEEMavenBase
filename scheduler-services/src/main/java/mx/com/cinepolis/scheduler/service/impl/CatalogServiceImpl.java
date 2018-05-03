@@ -67,14 +67,37 @@ public class CatalogServiceImpl implements CatalogService{
 	}
 	
     @Override
-    public GitHubUserTO getGitHubUser() {
+    public GitHubUserTO getGitHubUser(String login) {
         GitHubUserTO gitHubUserTO = new GitHubUserTO();
-        gitHubUserTO.setAvatar("");
-        gitHubUserTO.setName("Victor");
-        gitHubUserTO.setLogin("vikingo1618");
-        gitHubUserTO.setFollowers(6);
-        gitHubUserTO.setFollowing(3);
+        
+        if(login.equals("vikingo1618")) {
+            gitHubUserTO.setAvatar("https://i.pinimg.com/originals/b4/80/af/b480af323093c05c4076563b790f7520.jpg");
+            gitHubUserTO.setName("Victor");
+            gitHubUserTO.setLogin("vikingo1618");
+            gitHubUserTO.setFollowers(6);
+            gitHubUserTO.setFollowing(3);
+        }else if(login.equals("ponchito2012")){
+            gitHubUserTO.setAvatar("");
+            gitHubUserTO.setName("Maximiliano");
+            gitHubUserTO.setLogin("ponchito2012");
+            gitHubUserTO.setFollowers(123);
+            gitHubUserTO.setFollowing(456);
+        }
         return gitHubUserTO;
+    }
+    
+    @Override
+    public GitHubUserTO postRequest(GitHubUserTO gitHubUserTO) {
+    	GitHubUserTO ghUserTO = new GitHubUserTO();
+    	
+    	ghUserTO.setAvatar(gitHubUserTO.getAvatar());
+    	ghUserTO.setName(gitHubUserTO.getName());
+    	ghUserTO.setLogin(gitHubUserTO.getLogin());
+    	ghUserTO.setFollowers(gitHubUserTO.getFollowers());
+    	ghUserTO.setFollowing(gitHubUserTO.getFollowing());
+    	
+    	return ghUserTO;
+    	
     }
    
 }

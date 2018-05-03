@@ -31,8 +31,14 @@ public class CatalogFacadeEJB {
     }
     
     
-    public GitHubUserTO getSimpleGitHubUser()
+    public GitHubUserTO getSimpleGitHubUser(String login)
     {
-        return catalogService.getGitHubUser();
+        return catalogService.getGitHubUser(login);
+    }
+    
+    
+    public GitHubUserTO postRequest(GitHubUserTO gitHubUserTO)
+    {
+        return catalogService.postRequest(gitHubUserTO);
     }
 }

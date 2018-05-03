@@ -24,6 +24,8 @@ public interface CatalogService {
     List<CatalogsTO> getEstados(String pais);
     
     
-    GitHubUserTO getGitHubUser();
+    GitHubUserTO getGitHubUser(String login);
+    
+    GitHubUserTO postRequest(GitHubUserTO gitHubUserTO);
 
 }
