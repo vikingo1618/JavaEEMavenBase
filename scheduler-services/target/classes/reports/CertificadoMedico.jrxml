@@ -258,7 +258,7 @@
 				<textElement textAlignment="Center">
 					<font fontName="Gill Sans MT" size="14"/>
 				</textElement>
-				<text><![CDATA[CERTIFICADO DE EXAMEN PSICOFÃSICO]]></text>
+				<text><![CDATA[CERTIFICADO DE EXAMEN PSICOFÃ?SICO]]></text>
 			</staticText>
 			<image hAlign="Center">
 				<reportElement x="5" y="33" width="70" height="27" uuid="63e7580e-c07b-47d5-9862-327a478b5624"/>

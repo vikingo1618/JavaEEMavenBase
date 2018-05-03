@@ -220,6 +220,14 @@
 			<version>${log4j.version}</version>
 
 		</dependency>
+		
+		<dependency>
+       <groupId>com.oracle.weblogic</groupId>
+       <artifactId>weblogic-server-pom</artifactId>
+       <version>12.1.2-0-0</version>
+       <type>pom</type>
+       <scope>provided</scope>
+      </dependency>
 
 	</dependencies>
 
@@ -285,4 +293,5 @@
 			</properties>
 		</profile>
 	</profiles>
+	
 </project>

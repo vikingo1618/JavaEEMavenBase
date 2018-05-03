@@ -75,7 +75,7 @@ H. AYUNTAMIENTO DE HERMOSILLO, SONORA, MÉXICO]]></text>
 				<textElement textAlignment="Justified" verticalAlignment="Middle">
 					<font fontName="Arial" size="9" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["EN HERMOSILLO, SONORA A LOS " + $F{diaActual} + " DÍAS DEL MES DE " + $F{mesActual} + " DEL AÑO " + $F{anoActual}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["EN HERMOSILLO, SONORA A LOS " + $F{diaActual} + " D�?AS DEL MES DE " + $F{mesActual} + " DEL AÑO " + $F{anoActual}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="0" y="20" width="550" height="25" uuid="3031cd53-e708-487c-8e11-00363f6e34a3">

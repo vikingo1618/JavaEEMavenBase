@@ -7,8 +7,6 @@ package mx.com.cinepolis.scheduler.commons.to;
 public class UserTO {
 
 
-    private static final long serialVersionUID = -8853482566070472169L;
-
     private Long idUser;
 
     private String name;
