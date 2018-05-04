@@ -11,65 +11,66 @@ public class UserTO {
 
     private Long idUser;
 
+    private String login;
+
+    private String avatarUrl;
+
     private String name;
+    
+    private int followers;
+    
+    private int following;
 
-    private String userName;
+	public Long getIdUser() {
+		return idUser;
+	}
 
-    private String email;
+	public void setIdUser(Long idUser) {
+		this.idUser = idUser;
+	}
 
-    /**
-     * @return
-     */
-    public Long getIdUser() {
-        return idUser;
-    }
+	public String getLogin() {
+		return login;
+	}
 
-    /**
-     * @param idUser
-     */
-    public void setIdUser(Long idUser) {
-        this.idUser = idUser;
-    }
+	public void setLogin(String login) {
+		this.login = login;
+	}
 
-    /**
-     * @return
-     */
-    public String getName() {
-        return name;
-    }
+	public String getAvatarUrl() {
+		return avatarUrl;
+	}
 
-    /**
-     * @param name
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setAvatarUrl(String avatarUrl) {
+		this.avatarUrl = avatarUrl;
+	}
 
-    /**
-     * @return
-     */
-    public String getUserName() {
-        return userName;
-    }
+	public String getName() {
+		return name;
+	}
 
-    /**
-     * @param userName
-     */
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    /**
-     * @return
-     */
-    public String getEmail() {
-        return email;
-    }
+	public int getFollowers() {
+		return followers;
+	}
 
-    /**
-     * @param email
-     */
-    public void setEmail(String email) {
-        this.email = email;
-    }
+	public void setFollowers(int followers) {
+		this.followers = followers;
+	}
+
+	public int getFollowing() {
+		return following;
+	}
+
+	public void setFollowing(int following) {
+		this.following = following;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
 }

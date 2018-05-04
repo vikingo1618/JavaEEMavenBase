@@ -27,5 +27,10 @@ public interface CatalogService {
     GitHubUserTO getGitHubUser(String login);
     
     GitHubUserTO postRequest(GitHubUserTO gitHubUserTO);
-
+    
+    /**
+     * Returns the lisst of users from DB
+     * @return list of users
+     */
+    List<UserTO> getAllUsers();
 }

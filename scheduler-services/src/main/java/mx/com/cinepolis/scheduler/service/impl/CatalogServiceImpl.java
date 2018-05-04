@@ -2,13 +2,21 @@ package mx.com.cinepolis.scheduler.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
+import javax.inject.Inject;
+
+import mx.com.arquitectura.base.model.UserDO;
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
 import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
+import mx.com.cinepolis.scheduler.data.persistence.dao.UserDAO;
 import mx.com.cinepolis.scheduler.service.CatalogService;
 
 public class CatalogServiceImpl implements CatalogService{
+	
+	@Inject
+	private UserDAO userDAO;
 
     /**
      * {@inheritDoc}
@@ -18,8 +26,10 @@ public class CatalogServiceImpl implements CatalogService{
         UserTO userTO = new UserTO();
         userTO.setIdUser(1L);
         userTO.setName("Javier");
-        userTO.setEmail("francisco.rodriguez@axity.com.mx");
-        userTO.setUserName("jrodriguez");
+        userTO.setAvatarUrl("");
+        userTO.setLogin("jrodriguez");
+        userTO.setFollowers(3);
+        userTO.setFollowing(3);
         return userTO;
     }
 
@@ -99,5 +109,20 @@ public class CatalogServiceImpl implements CatalogService{
     	return ghUserTO;
     	
     }
+
+	@Override
+	public List<UserTO> getAllUsers() {
+		List<UserDO> userDOList = userDAO.findAll();
+		
+		return userDOList.stream().map(x -> new UserTO(){{
+				setLogin(x.getLogin());
+				setFollowing(x.getFollowing());
+				setFollowers(x.getFollowers());
+				setAvatarUrl(x.getAvatarUrl());
+				setName(x.getName());
+				setIdUser(x.getIdUser());	
+			}}).collect(Collectors.toList());
+
+	}
    
 }

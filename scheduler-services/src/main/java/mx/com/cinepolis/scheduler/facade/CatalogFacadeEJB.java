@@ -41,4 +41,8 @@ public class CatalogFacadeEJB {
     {
         return catalogService.postRequest(gitHubUserTO);
     }
+
+	public List<UserTO> getAllUsers() {
+		return catalogService.getAllUsers();
+	}
 }
