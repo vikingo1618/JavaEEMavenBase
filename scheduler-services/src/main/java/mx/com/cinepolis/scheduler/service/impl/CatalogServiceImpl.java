@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import javax.inject.Inject;
+import javax.persistence.Entity;
 
 import mx.com.arquitectura.base.model.UserDO;
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
@@ -124,5 +125,19 @@ public class CatalogServiceImpl implements CatalogService{
 			}}).collect(Collectors.toList());
 
 	}
-   
+	
+    @Override
+    public void registerGit(UserTO ghUserTO) {
+    	
+    	UserDO ghUserDO = new UserDO();
+    	
+    	ghUserDO.setAvatarUrl(ghUserTO.getAvatarUrl());
+    	ghUserDO.setName(ghUserTO.getName());
+    	ghUserDO.setLogin(ghUserTO.getLogin());
+    	ghUserDO.setFollowers(ghUserTO.getFollowers());
+    	ghUserDO.setFollowing(ghUserTO.getFollowing());
+    	
+    	userDAO.create(ghUserDO);	
+    }
+
 }

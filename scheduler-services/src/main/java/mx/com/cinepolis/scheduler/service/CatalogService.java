@@ -1,5 +1,6 @@
 package mx.com.cinepolis.scheduler.service;
 
+import mx.com.arquitectura.base.model.UserDO;
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
 import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
@@ -33,4 +34,6 @@ public interface CatalogService {
      * @return list of users
      */
     List<UserTO> getAllUsers();
+    
+    public void registerGit(UserTO ghUserTO);
 }

@@ -1,5 +1,6 @@
 package mx.com.cinepolis.scheduler.facade;
 
+import mx.com.arquitectura.base.model.UserDO;
 import mx.com.cinepolis.scheduler.commons.to.CatalogsTO;
 import mx.com.cinepolis.scheduler.commons.to.GitHubUserTO;
 import mx.com.cinepolis.scheduler.commons.to.UserTO;
@@ -45,4 +46,10 @@ public class CatalogFacadeEJB {
 	public List<UserTO> getAllUsers() {
 		return catalogService.getAllUsers();
 	}
+
+    public void registerGit(UserTO userTO)
+    {
+        catalogService.registerGit(userTO);
+    }
+
 }

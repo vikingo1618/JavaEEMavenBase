@@ -8,6 +8,7 @@ import mx.com.cinepolis.scheduler.facade.CatalogFacadeEJB;
 import java.util.List;
 
 import javax.ejb.EJB;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -84,8 +85,14 @@ public class CatalogRest {
         
         return Response.ok().entity(entity).build();
     }
-
     
-   
+    @POST
+    @Consumes("application/json")
+    @Path("/insert")
+    public void registerGit(UserTO userTO)
+    {
+    	catalogFacadeEJB.registerGit(userTO);
+    }
+
 }
 
